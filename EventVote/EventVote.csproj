@@ -34,11 +34,21 @@
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>..\..\..\..\файлы\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
-    <Reference Include="BanLogger">
-      <HintPath>..\..\..\..\BanLogger.dll</HintPath>
+    <Reference Include="Assembly-CSharp_publicized">
+      <HintPath>..\..\..\..\файлы\Qurre\Assembly-CSharp_publicized.dll</HintPath>
     </Reference>
-    <Reference Include="Qurre">
-      <HintPath>..\..\..\..\файлы\Qurre\Qurre.dll</HintPath>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>..\..\..\..\файлы\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DissonanceVoip">
+      <HintPath>..\..\..\..\файлы\DissonanceVoip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\файлы\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Qurre, Version=1.11.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Qurre.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
@@ -49,7 +59,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="EventHandler.cs" />
     <Compile Include="EventVote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
